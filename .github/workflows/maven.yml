@@ -34,3 +34,5 @@ jobs:
     - name: Build Docker Image
       run: docker build -t dhruvchopraa/hello-world-java-demo:0.0.1.Release .
 
+    - name: Push Docker Image
+      run: docker push dhruvchopraa/hello-world-java-demo:0.0.1.Release
